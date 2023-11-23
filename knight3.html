@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0px;
+    }
+    .navbar{
+        display: flex;
+        background-color:  rgba(0,0,0,.12);
+        padding: 20px;
+        position: fixed;
+       width: 99%;
+        
+    }
+    .navbar img{
+        margin-left: 100px;
+    }
+    .nav{
+        font-size: 20px;
+        margin-left: 700px;
+        padding-top: 20px;
+    }
+    .msg{
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+    }
+    .nav-inner{
+        text-decoration: none;
+        color: white;
+        margin-left: 50px;
+    }
+    .with{
+        margin-top: -600px;
+    }
+    .with h1{
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    .with h2{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    .apply{
+         font-size: 25px;
+         border-radius: 35px;
+         color: white;
+         background-color: #FF5672;
+         border-color: white;
+         padding: 15px;
+         margin-left: 600px;
+         margin-top: 150px;
+         width: 250px;
+    }
+    .watch{
+        font-size: 25px;
+         /* border-radius: 35px;
+         color: white;
+         background-color: #FF5672;
+         border-color: ; */
+         padding: 15px;
+         margin-left: 600px;
+         margin-top: 50px;
+         width: 250px;
+         background: none;
+         border: none;
+         color: rgb(245, 241, 241);
+    }
+    .mission h1{
+        margin-top: 300px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    .our{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 50px;
+        width: 500px;
+        margin-left: 350px;
+        margin-right: 550px;
+    }
+    .mission{
+        border-bottom: solid;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-color: blueviolet;
+    }
+    .our1{
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 50px;
+        width: 500px;
+        margin-left: 350px;
+        margin-right: 550px;
+    }
+    .key{
+        margin-top: 50px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    .key2 img{
+        margin-left: 50px;
+    }
+    .key1{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .key2 h1{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 100px;
+        
+        
+    }
+    .key2 p{
+        font-size: 17px;
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    .key3{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 300px;
+        margin-right: 300px;
+
+    
+    }
+    .key4{
+        margin-left: 80px;
+    }
+    .key4 img{
+        margin-left: 40px;
+    }
+    .key2 h3{
+        margin-left: 50px;
+    }
+    .key2 h4{
+        margin-left: 100px;
+    }
+    .key5{
+        margin-left: 110px;
+    }
+    .key10{
+        border-bottom: solid;
+        border-color: blueviolet;
+    }
+    .here h1{
+        margin-top: 80px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 50px;
+        font-family: cursive;
+        font-weight: bold;
+
+    }
+    .here p{
+        margin-top: 20px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 20px;
+    }
+    .here1{
+        margin-left: 150px;
+    }
+    .here1 button{
+        font-size: 25px;
+         border-radius: 35px;
+         color: white;
+         background-color: #FF5672;
+         border-color: white;
+         padding: 15px;
+         margin-left: 230px;
+         margin-top: 150px;
+         width: 250px;
+         margin-bottom: 80px;
+    }
+    .here3{
+        border-bottom: solid;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-color: blueviolet;
+        
+    }
+    .q{
+        margin-top: 80px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: bold;
+
+    }
+    .info2{
+        font-size: 30px;
+        color: #FF5672;
+    }
+    .info10{
+        display: flex;
+
+    }
+    .info10 h3{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .mail{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 80px;
+    }
+    footer{
+        text-align: center;
+        background-color: #DA6FC9;
+        color: white;
+        padding: 17px;
+        font-size: 18px;
+        margin-top: 70px;
+    }
+    .auto{
+        width: 100%;
+    }
+
+</style>
+<body>
+    <div>
+        <div class="navbar">
+                <img src="../image/knightlogo.png " height="60px" width="120px" alt="">
+            <div class="nav">
+                    <a href="./knight.html" class="nav-inner">Home</a>
+                    <a href="./knight1.html"  class="nav-inner">About</a>
+                    <a href="./knight2.html"  class="nav-inner">Menu</a>
+                    <a href="./knight3.html"  class="nav-inner">Franchise</a>
+            </div>
+        </div>
+    </div>
+    <div  class="msg">
+        <a href=""><img src="../image/message.png" height="80px" width="120px" alt=""></a>
+    </div>
+
+    <div>
+        <div>
+            <video autoplay muted loop  src="https://knight-bite.com/res/franchise/franchise_playback.mp4 " class="auto"></video>
+        </div>
+        </div>
+        <div class="with">
+            <h1>Franchise with knight bite</h1>
+            <h2>Get started with the modern way of doing business</h2>
+            <button class="apply">Apply Now</button>
+            <a href="https://knight-bite.com/res/franchise/franchise_playback.mp4"><button class="watch">watch video</button>
+                
+            </a>
+        </div>
+    
+
+    <div class="mission">
+        <h1>Mission and Vision</h1>
+        <p class="our">Our Mission is to deliver the best food with the ultimate customer service.</p>
+        <p class="our1">Our Vision is to be the most favourite food chain brand in the country and world.</p>
+    </div>
+
+    <div class="key10">
+        <div class="key">
+            <h1>Key Benefits Of Knight Bite Franchise</h1>
+        </div>
+        <div class="key1">
+            <div class="key2">
+                <img src="https://knight-bite.com/res/franchise/1.svg" alt="">
+                <h1>LOW INVESTMENT</h1>
+                <p>No need of prime roadside location, interior decor. A office desk and any well hygenic kitchen space is enough.</p>
+            </div>
+            <div  class="key2">
+                <img src="https://knight-bite.com/res/franchise/2.svg" alt="">
+                <h1>LOWMAINTAINANCE</h1>
+                <p>The hygiene, rent, staff and storage is the only maintenance the franchise would have to focus on.</p>
+            </div>
+            <div  class="key2">
+                <img src="https://knight-bite.com/res/franchise/3.svg" alt="">
+                <h1>BASIC SKILLSET</h1>
+                <p>Anyone with basic training can step into the shoes of the staff. No serious training is required. Materials are sent.</p>
+            </div>
+            <div class="key2">
+                <h3>
+                <img src="https://knight-bite.com/res/franchise/4.svg" alt=""></h3>
+                <h1 class="key4">IN-HOUSE POS</h1>
+                <p>POS will be provided to manage and track orders with ease. All the applications are interconnected to the POS. Moreover call centre customer support will also be provided.</p>
+            </div>
+            
+
+        </div>
+
+    <div class="key3">
+        <div class="key2">
+                <img src="https://knight-bite.com/res/franchise/5.svg" alt="">
+                <h1>GOOD PROFIT MARGIN</h1>
+                <p>Establishment running cost is much lesser than traditional restaurant. You are in for a good profit margin.</p>
+            </div>
+            <div class="key2">
+                <h4><img src="https://knight-bite.com/res/franchise/pandemic_ic.svg" alt=""></h4>
+                <h1 class="key5">PANDEMIC FRIENDLY</h1>
+                <p>Knight Bite is the most successful business to run hassle-free even during the Pandemic. The faith in Knight Bite has taken a hit due to its high efficiency and extraordinary sustainability</p>
+            </div>
+    </div>
+
+</div>
+
+<div class="here3">
+    <div class="here">
+        <h1>Apply Here</h1>
+        <p>Request for initial meeting</p>
+    </div>
+    <div class="here1">
+        <img src="https://nrzl4apc.knight-bite.com/main/res/franchise/apply-grid.png"  height="600px"  alt="">
+        <button>Apply Now</button>
+    </div>
+</div>
+
+<div>
+    <div class="q"><h1>Franchise Queries</h1></div>
+    <div class="mail">
+        <div class="info10">
+            <p class="info2"><i class="fa-solid fa-phone"></i></p>
+            <h3>franchise@knight-bite.com</h3>
+        </div>
+        <div class="info10">
+            <p class="info2"><i class="fa-regular fa-envelope img " ></i></p>
+            <h3>08047192034</h3>
+        </div>
+    </div>
+    
+
+</div>
+
+<div>
+    <footer>
+    <p>Ⓒ Copyright 2022. Knight Bite. All Rights Reserved</p>
+</footer>
+</div>
+
+</body>
+</html>

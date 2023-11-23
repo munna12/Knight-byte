@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0px;
+    }
+    .navbar{
+        display: flex;
+        background-color:  rgba(0, 0, 0, 0.064);;
+        padding: 20px;
+        position: fixed;
+       width: 99%;
+        
+    }
+    .navbar img{
+        margin-left: 100px;
+    }
+    .nav{
+        font-size: 20px;
+        margin-left: 700px;
+        padding-top: 20px;
+    }
+    .msg{
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+    }
+    .nav-inner{
+        text-decoration: none;
+        color: white;
+        margin-left: 50px;
+    }
+    .order h1{
+        font-size: 80px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        position: relative;
+        margin-top: -500px;
+        text-align: center;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 10px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: #FF5672;
+        color: white;
+        margin-left: 700px;
+        margin-top: 50px;
+    }
+    .order img{
+        height: 70px;
+        width: 180px;
+    }
+    .order h2{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        position: relative;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .apple{
+        display: flex;
+        margin-left: 540px;
+        justify-content: space-around;
+    }
+    .apple1{
+        margin-right: 530px;
+    }
+    .features h1{
+        margin-top: 250px;
+        margin-bottom: 100px;
+        /* color: white; */
+        font-size: 50px;
+        font-family: cursive;
+        text-align: center;
+    }
+    .features1{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        height: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+
+    }
+    .features2{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 25px;
+       
+
+    }
+    .enjoy{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        position: relative;
+        margin-top: -400px;
+        text-align: center;
+    }
+    .food{
+        margin-top: 130px;
+    }
+    .burger{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        position: relative;
+        margin-top: -400px;
+        text-align: center;
+
+    }
+    .btn1{
+        font-size: 25px;
+        padding: 10px;
+        width: 250px;
+        border-radius: 15px;
+        background-color: #e9e3e300;
+        color: white;
+        margin-left: 600px;
+        margin-top: 50px;
+        border-color: azure;
+    }
+    .fries{
+        margin-top: 280px;
+    }
+    .connect h1{
+        margin-top: 150px;
+        margin-bottom: 100px;
+        font-size: 70px;
+        font-family: cursive;
+        text-align: center;
+
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info1{
+        display: flex;
+        margin-top: 50px;
+    }
+    .info2{
+        font-size: 30px;
+        color: #FF5672;
+       
+        
+    }
+    .info3{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .info4{
+        font-size: 25px;
+        line-height: 40px;
+        width: 650px;
+
+    }
+    .info5{
+        margin-top: 30px;
+    }
+    .info6{
+         font-size: 25px;
+    }
+    .info7{
+        padding: 10px;
+        color: #FF5672;
+    }
+    .info8{
+        width: 400px;
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .info9{
+        font-size: 95px;
+        color: #FF5672;
+        margin-left: 410px;
+        margin-top: -90px;
+    }
+    .head{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 200px;
+    }
+    .head2{
+        width: 250px;
+    }
+    .head h1{
+        padding: 40px;
+    }
+    .head p{
+        font-size: 20px;
+    }
+    .follow{
+        margin-left: 30px;
+    }
+    .end{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .end1{
+        margin-left: 50px;
+    }
+    footer{
+        text-align: center;
+        background-color: #DA6FC9;
+        color: white;
+        padding: 17px;
+        font-size: 18px;
+        margin-top: 70px;
+    }
+
+
+
+
+
+    
+</style>
+<body>
+
+
+    
+    <div>
+        <div class="navbar">
+                <img src="../image/knightlogo.png " height="60px" width="120px" alt="">
+            <div class="nav">
+                    <a href="./knight.html" class="nav-inner">Home</a>
+                    <a href="./knight1.html"  class="nav-inner">About</a>
+                    <a href="./knight2.html"  class="nav-inner">Menu</a>
+                    <a href="./knight3.html"  class="nav-inner">Franchise</a>
+            </div>
+        </div>
+    </div>
+    <div  class="msg">
+        <a href=""><img src="../image/message.png" height="80px" width="120px" alt=""></a>
+    </div>
+    <div>
+        <div>
+            <img src="../image/knight.back2.avif" height="720px" width="100%" alt="">
+            <div class="order">
+                <h1>ORDER LATE NIGHT MEALS</h1>
+                <button class="btn" >Order Now</button>
+                <h2>Or</h2>
+                <div class="apple">
+                    <img src="../image/applestorelogo1.png" alt="">
+                    <div class="apple1">
+                        <img src="../image/playstorelogo1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <h1>Features</h1>
+        <div class="features1">
+        <img src="../image/late.svg" alt="">
+        <img src="../image/call.svg" alt="">
+        <img src="../image/time.svg" alt="">
+        <img src="../image/food.svg" alt="">
+        <img src="../image/place.svg" alt="">
+    </div>
+        <div class="features2">
+            <p>Late Night Delivery Till 4 Am</p>
+            <p>Order On App Or Call 080-4710607</p>
+            <p>Delivery Within 40 Mins</p>
+            <p>Food For Every Kind Of Hunger</p>
+            <p>Place Bulk Orders Through App</p>
+
+        </div>
+    </div>
+
+    <div>
+        <div class="food">
+            <img src="../image/knight.10.jpg" height="770px" width="100%" alt="">
+            <div class="enjoy">
+                <h1>ENJOY FOOD, ENJOY LIFE</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fries">
+        <img src="../image/knight.11.png" height="770px" width="100%"  alt="">
+        <div class="burger">
+            <h1>
+                BURGER, FRIES, SHAKES AND MANY MORE
+            </h1>
+        </div>
+        <div>
+            <button class="btn1">See Full Menu</button>
+        </div>
+    </div>
+
+    <div class="connect">
+        <h1>Connect with us</h1>
+    </div>
+    <div class="info">
+        <div>
+            <h1>Contact us</h1>
+            <div class="info1">
+                <p class="info2"><i class="fa-regular fa-envelope img " ></i></p>
+                    <p class="info3">info@knight-bite.com</p>
+            </div>
+            <div class="info1">
+                <p class="info2"><i class="fa-solid fa-phone"></i></p>
+                <div >
+                    <h2 class="info3">+91 8047106107</h2>
+                    <p class="info3">Available from 7pm to 4am</p>
+                </div>
+            </div>
+        </div>
+        <div >
+            <h1>Quick Links</h1>
+            <div class="info5">
+                <ul class="info6">
+                    <li class="info7">Delivery Policies</li>
+                    <li class="info7">Privacy Policies</li>
+                    <li>Careers (Coming soon)</li>
+                    <li class="info7">Franchise</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <p class="info4">Enter your email address below to be the first to know everything about us, where we’ll be next, and how you can come along!
+                Join us on our adventure.</p>
+                <input type="text" placeholder="Enter your email address"class="info8">
+                <p class="info9"><i class="fa-solid fa-play" ></i></p>
+        </div>
+    </div>
+
+    <div class="head">
+        <div class="head1">
+        <h1>Head Office</h1>
+        <p>Mangaluru-575001</p>
+    </div>
+        <div class="head2">
+            <h1>Locations</h1>
+            <ul><li> <p> Bengaluru, Mangalore, Mysuru, Hyderabad, Hubli, Manipal, Udupi</p></li></ul>
+
+        </div>
+        <div class="head3">
+            <h1>Follow us</h1>
+            <a href="" class="follow"><img src="https://knight-bite.com/res/instagram.svg" alt=""></a>
+            <a href="" class="follow"><img src="https://knight-bite.com/res/facebook.svg" alt=""></a>
+            <a href="" class="follow"><img src="https://knight-bite.com/res/twitter.svg" alt=""></a>
+            <a href="" class="follow"><img src="https://knight-bite.com/res/linkedin.svg" alt=""></a>
+            <a href="" class="follow"><img src="https://knight-bite.com/res/youtube.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="end">
+        <p><img src="https://knight-bite.com/res/index/brand_logo-1_footer.svg" alt="">
+        <img src="https://knight-bite.com/res/index/brand_logo-2_footer.svg" class="end1" alt=""></p>
+    </div>
+
+    <div>
+        <footer>
+        <p>Ⓒ Copyright 2022. Knight Bite. All Rights Reserved</p>
+    </footer>
+    </div>
+
+
+
+
+
+    
+
+</body>
+</html>
